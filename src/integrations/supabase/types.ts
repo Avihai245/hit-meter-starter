@@ -32,6 +32,27 @@ export type Database = {
         }
         Relationships: []
       }
+      viral_dna_cache: {
+        Row: {
+          dna: Json
+          genre: string
+          id: number
+          updated_at: string | null
+        }
+        Insert: {
+          dna: Json
+          genre: string
+          id?: number
+          updated_at?: string | null
+        }
+        Update: {
+          dna?: Json
+          genre?: string
+          id?: number
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
       viralize_analyses: {
         Row: {
           audio_url: string | null
