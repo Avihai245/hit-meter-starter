@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Hit Meter Pro
 
-TODO: Document your project here
+High-precision event tracking and analysis platform.
